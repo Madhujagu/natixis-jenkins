@@ -12,11 +12,7 @@ public class NatixisJeniksDemoApplication {
 
 	public static Logger logger = LoggerFactory.getLogger(NatixisJeniksDemoApplication.class);
 	
-	@PostConstruct
-	public void init()
-	{
-		logger.info("Executing in the postconstructor..........");
-	}
+
 	public static void main(String[] args) {
 		
 		logger.info("Started with LoggerFactor.......");
